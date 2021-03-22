@@ -6,5 +6,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('helloworld/', helloworldfunction),
     path('helloworld2/', HelloWorldClass.as_view()),
-    path('', include('helloworldapp.urls'))
+    path('app/', include('helloworldapp.urls'))
 ]
